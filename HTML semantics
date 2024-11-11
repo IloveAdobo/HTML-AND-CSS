@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--Header
+    Purpose: Represents the header section of a page, article, or section. It typically contains introductory content or navigational links.
+    Use case: Use <header> for the top part of a page, a section, or an article, which may include a site title, logo, navigation links, or introductory content.
+    Example:
+     -->
+    <header>
+        <h1>Website Title</h1>
+        <nav>
+            <ul>
+                <li><a href="/home">Home</a></li>
+                <li><a href="/about">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!--Article
+    Purpose: Represents a self-contained piece of content that could stand alone or be distributed independently.
+    Use case: Use <article> for content that can be considered a standalone unit, such as blog posts, news articles, user-generated content, product descriptions, or forum posts.
+    Example:
+    -->
+    <article>
+        <header>
+            <h1>How to Learn Web Development</h1>
+            <p>By Jane Doe | September 2024</p>
+        </header>
+        <p>Web development is an exciting field that allows you to create websites...</p>
+        <footer>
+            <p>Read more articles on <a href="/blog">our blog</a></p>
+        </footer>
+    </article>
+    <!--Sections
+    Purpose: Represents a section of content that has a distinct theme or purpose. A <section> usually includes a heading (<h1>, <h2>, etc.) and groups related content.
+    Use case: Use <section> to divide content into logical sections or group related content. For example, sections of a webpage, subsections of a blog post, or different topics in a report.
+    Example:
+    -->
+    <section>
+        <h2>Introduction</h2>
+        <p>Welcome to this tutorial on web development...</p>
+    </section>
+    <section>
+        <h2>What is HTML?</h2>
+        <p>HTML stands for Hypertext Markup Language...</p>
+    </section>
+    <!--Navigations
+    Purpose: Represents a section of navigation links that helps users navigate through the site or specific content. Typically used for menus or links to different sections/pages.
+    Use case: Use <nav> to wrap a collection of links that are related to site navigation (e.g., main navigation bar, footer links, pagination links).
+    Example:
+    -->
+    <nav>
+        <ul>
+            <li><a href="/home">Home</a></li>
+            <li><a href="/about">About Us</a></li>
+            <li><a href="/services">Services</a></li>
+            <li><a href="/contact">Contact</a></li>
+        </ul>
+    </nav>
+    <!--Aside
+    Purpose: Represents content that is tangentially related to the content around it but could be considered separate. Often used for sidebars, pull quotes, related links, or advertisements.
+    Use case: Use <aside> for content like sidebars, advertisements, related articles, or any content that is not the primary focus but is still relevant to the main content.
+    Example:
+    -->
+    <article>
+        <h1>How to Build a Website</h1>
+        <p>This tutorial will guide you step-by-step...</p>
+        <aside>
+            <h2>Related Articles</h2>
+            <ul>
+                <li><a href="/article1">Article 1</a></li>
+                <li><a href="/article2">Article 2</a></li>
+            </ul>
+        </aside>
+    </article>
+    <!--Footer
+    Purpose: Represents the footer section of a page, article, or section. It typically contains information like copyright notices, contact details, or links to related content.
+    Use case: Use <footer> for content that appears at the bottom of the page or a section. This may include copyright information, author details, or additional navigation links.
+    Example:
+    -->
+    <footer>
+        <p>&copy; 2024 My Website. All rights reserved.</p>
+        <nav>
+            <ul>
+                <li><a href="/privacy-policy">Privacy Policy</a></li>
+                <li><a href="/terms-of-service">Terms of Service</a></li>
+            </ul>
+        </nav>
+    </footer>
+    <!--Main
+    Purpose: Represents the main content of the <body> of a document, excluding headers, footers, and sidebars. There should be only one <main> element per document.
+    Use case: Use <main> for the primary content of a page that is directly related to the central purpose of the page.
+    Example:
+    -->
+    <main>
+        <article>
+            <h2>Article Title</h2>
+            <p>This is the main content of the article...</p>
+        </article>
+    </main>
+    <!--figure and figcaption
+    Purpose: <figure> is used for self-contained content like images, videos, illustrations, etc., and <figcaption> is used to provide a caption for that content.
+    Use case: Use <figure> when you want to group media (like an image or a video) with a caption.
+    Example:
+    -->
+    <figure>
+        <img src="image.jpg" alt="A beautiful sunset">
+        <figcaption>A stunning sunset over the ocean.</figcaption>
+    </figure>
+    <!--Time
+    Purpose: Represents a specific time or a range of time. It is useful for marking up dates, times, or durations in a machine-readable way.
+    Use case: Use <time> when displaying dates or times (e.g., the publication date of an article).
+    Example:
+    -->
+    <p>Published on <time datetime="2024-09-30">September 30, 2024</time></p>
+    <!--Details and Summary
+    Purpose: <details> represents a disclosure widget that the user can open or close, and <summary> provides a visible heading for the <details> element.
+    Use case: Use <details> to create collapsible content, and <summary> to define the heading.
+    Example:
+    -->
+    <details>
+        <summary>Click to learn more</summary>
+        <p>This is additional information that can be revealed or hidden.</p>
+    </details>
+    
+</body>
+</html>
